@@ -1,0 +1,349 @@
+html {
+    height: 100%;
+    line-height: 0.9;
+    font-family: "Scheherazade New", serif;
+    font-style: normal;
+}
+
+html,body {
+    height: 100%;
+    background-image: url(../images/background.png);
+    padding: 0;
+    margin: 0;
+}
+
+.en {
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.page-wrapper-w {
+    width: max(35%, 350px);
+    margin: 3vh auto;
+    box-shadow: 0 8px 16px;
+    background-image: url(../images/background.png);
+    background-size: contain;
+    border-radius: 2em;
+    padding: 1vw;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4vh;
+    background-image: url(../images/background-34-1.jpg);
+    background-size: cover;
+    padding: 2vw;
+    border: #ffffff 2px solid;
+    border-radius: 2em;
+}
+
+.imgs {
+    position: relative;
+    width: 100%;
+}
+
+.top {
+    width: 35%;
+    display: block;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 1vh auto 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1vh;
+    gap: 2vh;
+}
+
+h1 {
+    font-family: "Bodoni Moda", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.8vw;
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    line-height: 0.85;
+}
+
+.boutigue {
+    font-family: "Ballet", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5vw;
+    margin: 0 auto 3vh;
+    padding: 0;
+    color: #fff;
+}
+
+.services {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #fff;
+    font-size: 1vw;
+}
+
+.content-top-p {
+    font-size: 1vw;
+    margin-top: 0px;
+    color: #caad7a;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2vh;
+    width: 100%;
+}
+
+.whats-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 80%;
+    gap: 0.2vw;
+    background-color: #fff;
+    margin: auto;
+    border-radius: 1em;
+    padding: 0.3vw;
+}
+
+.arrow {
+    width: 1vw;
+}
+
+.whats {
+    text-decoration: none;
+    padding: 8px 10px;
+    background-color: #ffffff;
+    color: #000;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: max(2rem, 2vw);
+}
+
+.whats-container span {
+    font-size: 0.8vw;
+    font-weight: 500;
+}
+
+.icon {
+    width: 2.5vw;
+    padding-right: 0.3vw;
+    border-right: #ffdddd 1px solid;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-p {
+    text-align: center;
+    margin-top: 1.5vw;
+    width: 100%;
+    color: #ffffff;
+    font-size: 1.2vw;
+    font-weight: 600;
+}
+
+.delivery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delivery-img {
+    width: 100%;
+    height: 4vw;
+    transition: transform 0.3s ease;
+}
+
+.delivery-img:hover {
+    transform: scale(1.05);
+}
+
+h5 {
+    text-align: center;
+    font-size: 1vw;
+}
+
+@media (max-width: 1024px) and (min-height: 720px) {
+    .page-wrapper-w {
+        width: 70%;
+    }
+
+    .page-wrapper {
+        margin: 2.5vw
+    }
+
+    h1 {
+        font-size: 5.5vw;
+    }
+
+    .boutigue {
+        font-size: 4.5vw;
+    }
+
+    .services {
+        font-size: 2vw;
+    }
+
+    .social {
+        gap: 0.8vh;
+    }
+
+    .arrow {
+        width: 2vw;
+    }
+
+    .whats-container span {
+        font-size: 1.8vw;
+    }
+
+    .icon {
+        width: 6vw;
+    }
+
+    .footer-p {
+        margin-top: 2vh;
+        font-size: 2.5vw;
+    }
+    
+    .delivery-img {
+        width: 11vw;
+        height: 6vh;
+    }
+
+    .img-p {
+        font-size: 2.3vw;
+    }
+
+    .the-chefz {
+        width: 18vw;
+    }
+
+    .delivery-p {
+        font-size: 2.5vw;
+    }
+
+    h5 {
+        font-size: 2.2vw;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .page-wrapper-w {
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+        padding: 2.5vw;
+        margin: 0;
+    }
+
+    .page-wrapper {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        justify-content: flex-start;
+        box-shadow: 0 0 0;
+    }
+
+    .top {
+        width: 40%;
+    }
+
+    h1 {
+        font-size: 12vw;
+        margin-top: 1vh;
+    }
+
+    .boutigue {
+        font-size: 10vw;
+    }
+
+    .services {
+        font-size: 3.5vw;
+    }
+
+    .social {
+        gap: 1vh;
+    }
+
+    .whats-container {
+        padding: 0;
+        width: 80%;
+    }
+
+    .arrow {
+        width: 3vw;
+    }
+
+    .whats-container span {
+        font-size: 3.5vw
+    }
+
+    .icon {
+        width: 9vw;
+        padding-right: 1vw;
+    }
+
+    .footer-p {
+        font-size: 4vw;
+        margin-top: 2vh;
+    }
+
+    .delivery-img-container {
+        padding: 4vw;
+    }
+
+    .delivery-img {
+        width: 15vw;
+        height: 6vh;
+    }
+
+    .img-p {
+        font-size: 3vw;
+    }
+
+    .img-p span {
+        font-size: 3.5vw;
+    }
+
+    .the-chefz {
+        width: 25vw;
+    }
+
+    h5 {
+        font-size: 2.5vw;
+    }
+}
